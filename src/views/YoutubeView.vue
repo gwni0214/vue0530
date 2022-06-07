@@ -65,7 +65,7 @@ export default {
         redirect: "follow",
       };
       fetch(
-        "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=webstoryboy&key=AIzaSyAuTqa0-EWmo7QcS0lDxPVE45QJSRE1pp0&type=video",
+        `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30&q=${movies.value}&key=AIzaSyAA5aWvOTIanVkDzuHhwZIAseD4zUql-tc&type=video`,
         requestOptions
       )
         .then((response) => response.json())

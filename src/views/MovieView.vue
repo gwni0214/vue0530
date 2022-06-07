@@ -98,7 +98,7 @@ export default {
         redirect: "follow",
       };
       fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=9176c3bc2c2c9880b4ee1d76226e2b27&query=${search.value}`,
+        `https://api.themoviedb.org/3/search/movie?api_key=85d2aed02c5461f46270c2256b9ce40b&query=${search.value}`,
         requestOptions
       )
         .then((response) => response.json())
